@@ -13,7 +13,7 @@ WINDOW_SIZE = 3
 
 def main():
     if len(sys.argv) < VALID_ARGC:
-        print('Usage: main.py <path_to_image> (average|median|parabola|sobel|prewitt)')
+        print('Usage: main.py <path_to_image> (average|median|sobel|prewitt)')
         return
 
     original_img = imageio.imread(sys.argv[1])
